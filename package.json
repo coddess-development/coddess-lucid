@@ -1,7 +1,7 @@
 {
-  "name": "@adonisjs/lucid",
+  "name": "@coddess-development/lucid",
   "version": "18.4.2",
-  "description": "SQL ORM built on top of Active Record pattern",
+  "description": "A Fork of AdonisJS Lucid ORM, which fixes inconvenient bugs",
   "engines": {
     "node": ">=14.15.4"
   },
@@ -40,14 +40,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adonisjs/lucid.git"
+    "url": "git+https://github.com/coddess-development/coddess-lucid"
   },
   "author": "virk,adonisjs",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/adonisjs/lucid/issues"
   },
-  "homepage": "https://github.com/adonisjs/lucid#readme",
+  "homepage": "https://github.com/coddess-development/coddess-lucid#readme",
   "dependencies": {
     "@faker-js/faker": "^8.0.1",
     "@poppinss/hooks": "^5.0.3",
@@ -110,7 +110,7 @@
   },
   "publishConfig": {
     "tag": "latest",
-    "access": "public"
+    "access": "restricted"
   },
   "nyc": {
     "exclude": [
