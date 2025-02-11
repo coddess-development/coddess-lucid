@@ -1,6 +1,6 @@
 {
   "name": "@coddess-development/lucid",
-  "version": "18.4.2",
+  "version": "18.4.2-coddess.0",
   "description": "A Fork of AdonisJS Lucid ORM, which fixes inconvenient bugs",
   "engines": {
     "node": ">=14.15.4"
