@@ -279,7 +279,8 @@ export class Migrator extends EventEmitter implements MigratorContract {
 
     const released = await this.client.dialect.releaseAdvisoryLock(1)
     if (!released) {
-      throw new Exception('Migration completed, but unable to release database lock')
+      // throw new Exception('Migration completed, but unable to release database lock')
+      console.error('Migration completed, but unable to release database lock')
     }
     this.emit('release:lock')
   }
